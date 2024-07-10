@@ -74,7 +74,8 @@ p {
 .gap {
     height: 10vh;
 }
-.card-gap{
+
+.card-gap {
     height: 5vh;
 
 }
@@ -83,16 +84,22 @@ p {
     max-width: 80vw;
     margin: auto;
     background-color: rgb(250, 250, 250);
+    border-radius: 15px;
+    height: 185vh;
 }
 
-.disc-first {
+.disc-first,
+.insparation-head,
+.first-disc {
     text-align: center;
     font-size: 32px;
     font-weight: bolder;
     margin: 55px 0px 28px;
 }
 
-.disc-second {
+.disc-second,
+.insparation-reason,
+.second-disc {
     text-align: center;
     font-size: 16px;
     max-width: 65vw;
@@ -107,8 +114,8 @@ p {
     height: 45vh;
     max-width: 65vw;
     margin: auto;
- 
-    
+
+
 }
 
 .innertext {
@@ -121,26 +128,30 @@ p {
     color: rgb(100, 100, 100);
     border-radius: 18px 0px 0px 18px;
 }
-.innertext h2,h4,button{
+
+.innertext h2,
+h4,
+button {
     margin-left: 35px;
-    
+
 }
 
-.card1 button{
+.card1 button {
     width: 12vw;
     height: 7vh;
     font-weight: bolder;
     font-size: larger;
     color: rgb(100, 100, 100);
 }
+
 .card2 {
     display: flex;
     justify-content: space-between;
     height: 45vh;
     max-width: 65vw;
     margin: auto;
- 
-    
+
+
 }
 
 .card2 .innertext {
@@ -153,26 +164,30 @@ p {
     color: rgb(100, 100, 100);
     border-radius: 0px 18px 18px 0px;
 }
-.innertext h2,h4,button{
+
+.innertext h2,
+h4,
+button {
     margin-left: 35px;
-    
+
 }
 
-.card2 button{
+.card2 button {
     width: 12vw;
     height: 7vh;
     font-weight: bolder;
     font-size: larger;
     color: rgb(100, 100, 100);
 }
+
 .card3 {
     display: flex;
     justify-content: space-between;
     height: 45vh;
     max-width: 65vw;
     margin: auto;
- 
-    
+
+
 }
 
 .innertext {
@@ -185,15 +200,45 @@ p {
     color: rgb(100, 100, 100);
     border-radius: 18px 0px 0px 18px;
 }
-.innertext h2,h4,button{
+
+.innertext h2,
+h4,
+button {
     margin-left: 35px;
-    
+
 }
 
-.card3 button{
+.card3 button {
     width: 12vw;
     height: 7vh;
     font-weight: bolder;
     font-size: larger;
     color: rgb(100, 100, 100);
+}
+
+.insparation {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.insparation-vedio {
+    border: 2px solid rgb(120, 120, 120);
+    border-radius: 18px;
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insparation-vedio video {
+    margin: 25px;
+    width: 70vw;
+    border-radius: 18px;
+}
+
+.three-card {
+    border: 2px solid rgb(120, 120, 120);
+    max-width: 80vw;
+    margin: auto;
 }
