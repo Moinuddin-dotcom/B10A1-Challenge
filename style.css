@@ -237,8 +237,106 @@ button {
     border-radius: 18px;
 }
 
-.three-card {
-    border: 2px solid rgb(120, 120, 120);
+.three-card-description {
     max-width: 80vw;
     margin: auto;
+}
+
+.three-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card4 {
+    width: 20vw;
+    height: 38vh;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(228 156 156 / 21%);
+    padding: 8px;
+}
+
+.icon {
+    margin: 20px;
+}
+
+.heading {
+    font-size: large;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.heading-disc {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    padding: 10px;
+}
+
+.card4 a {
+    font-weight: bolder;
+    color: black;
+    padding: 10px;
+}
+
+.card5 {
+    width: 20vw;
+    height: 38vh;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(125 134 208 / 21%);
+    padding: 8px;
+}
+
+.icon {
+    margin: 20px;
+}
+
+.heading {
+    font-size: large;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.heading-disc {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    padding: 10px;
+}
+
+.card5 a {
+    font-weight: bolder;
+    color: black;
+    padding: 10px;
+}
+
+.card6 {
+    width: 20vw;
+    height: 38vh;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(228 220 179 / 26%);
+    padding: 8px;
+}
+
+.icon {
+    margin: 20px;
+}
+
+.heading {
+    font-size: large;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.heading-disc {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    padding: 10px;
+}
+
+.card6 a {
+    font-weight: bolder;
+    color: black;
+    padding: 10px;
 }
