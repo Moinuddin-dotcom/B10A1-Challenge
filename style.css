@@ -34,7 +34,7 @@ body {
 }
 
 .herosection {
-    background-image: url(assets/Hero-bg.png);
+    background-image: url(.assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -447,7 +447,7 @@ button {
     margin: auto;
     height: 50vh;
     border: 2px solid black;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(./assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
