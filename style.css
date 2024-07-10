@@ -458,6 +458,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border-radius: 15px;
 }
 
 .sup-head {
@@ -482,4 +483,14 @@ button {
     width: 8vw;
     padding: 10px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.lastbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cfcfd05e;
+    border-radius: 8px;
+    height: 14vh;
 }
